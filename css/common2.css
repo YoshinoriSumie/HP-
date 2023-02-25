@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* top -----------------------------------------*/
+.detail-top__wrapper {
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin-bottom: 16rem;
+}
+.detail-top__wrapper img {
+    width: 65%;
+}
+.detail-top__wrapper__ttl {
+    width: 35%;
+    text-align: center;
+    background-color: #fff;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    padding: 5.2rem;
+    line-height: 1.2;
+}
+.detail-top__wrapper__ttl p {
+    font-size: 2rem;
+    color: #4FA6A3;
+}
+.detail-top__wrapper__ttl h1 {
+    font-size: 4.8rem;
+    font-weight: 900;
+}

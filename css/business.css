@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+
+/* top -----------------------------------------*/
+.business-top {
+  margin-bottom: 28rem;
+}
+
+/* construction --------------------------------*/
+.construction {
+  position: relative;
+}
+.construction-wrapper__txt {
+  margin-top: 6rem;
+  width: 59%;
+}
+.construction-wrapper__txt p {
+  font-size: 2rem;
+}
+.construction-wrapper__img {
+  position: absolute;
+  top: -12rem;
+  right: 0;
+  z-index: -1;
+}
+
+/* housing --------------------------------*/
+.housing {
+  position: relative;
+  margin-top: 20rem;
+}
+.housing-wrapper__txt {
+  margin: 0 0 0 auto;
+  margin-top: 6rem;
+  width: 59%;
+}
+.housing-wrapper__txt p {
+  font-size: 2rem;
+}
+.housing-wrapper__img {
+  position: absolute;
+  top: 107px;
+  left: 0;
+  z-index: -1;
+}
+.housing-wrapper__txt {
+  margin-top: 6rem;
+  width: 51.5%;
+}
+.housing-wrapper__txt p {
+  font-size: 2rem;
+}
+.housing-wrapper__ttl .s-ttl__square {
+  margin: 0 0 0 auto;
+  position: relative;
+}
+.housing-wrapper__ttl.s-ttl {
+  flex-direction: column-reverse;
+}
+.housing-wrapper__ttl .s-ttl__con {
+  flex-direction: row-reverse;
+  left: 4rem;
+  position: absolute;
+  right: 8rem;
+}
+
+/* service --------------------------------*/
+.service-wrapper {
+  margin-top: 35%;
+  text-align: center;
+  padding-bottom: 8rem;
+}
+.service-wrapper__con {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 11.6rem;
+  border: 1px solid #555;
+  position: relative;
+}
+.service-wrapper__con__inner {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 8rem;
+}
+.service-wrapper__con__inner h3 {
+  font-size: 4rem;
+  font-weight: 900;
+  width: 70%;
+  position: absolute;
+  top: -4rem;
+  left: calc(50% - 35%);
+  background-color: #fff;
+}
+.service-wrapper__con__inner p {
+  font-size: 2rem;
+  text-align: left;
+  margin-top: 12%;
+}
+.service-wrapper__con__inner img {
+  width: 100%;
+  margin-top: 12rem;
+}

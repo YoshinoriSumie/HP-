@@ -1,0 +1,262 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Noto sans JP", sans-serif;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #555;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+li {
+  list-style: none;
+}
+
+.__inner {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+/* s-ttl ------------------------------------*/
+.s-ttl {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  position: relative;
+}
+.s-ttl__square {
+  width: 107px;
+  height: 107px;
+  background-color: #4FA6A3;
+}
+.s-ttl__con {
+  display: flex;
+  align-items: baseline;
+  position: absolute;
+  left: 8rem;
+}
+.s-ttl__ttl {
+  font-size: 4.8rem;
+  font-weight: 900;
+}
+.s-ttl__txt {
+  font-size: 2.4rem;
+}
+.s-ttl__line {
+  width: 120px;
+  border-bottom: 1px solid #555;
+  margin-left: 45px;
+  margin-right: 12px;
+}
+
+/* btn ---------------------------------------*/
+.btn {
+  width: 240px;
+  height: 80px;
+  background-color: #4FA6A3;
+  transition: all 0.3s;
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 6rem;
+  text-align: center;
+  border: 1px solid transparent;
+}
+.btn:hover {
+  background-color: #fff;
+  border: 1px solid #555;
+}
+.right-arrow {
+  width: 100px;
+  height: 4px;
+  border-bottom: 1px solid #555;
+  border-right: 1px solid #555;
+  transform: skew(45deg);
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transition: all 0.3s;
+}
+.btn-txt {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 90px;
+  font-size: 2.4rem;
+  transition: all 0.3s;
+}
+.btn-txt:hover {
+  color: #555;
+}
+
+/* header ------------------------------------*/
+.header-wrapper {
+  padding: 4rem 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-wrapper__left h1 {
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+.header-wrapper__right__list {
+  display: flex;
+  justify-content: flex-end;
+}
+.header-wrapper__right__list__item {
+  margin-left: 5.5rem;
+  text-align: center;
+  line-height: 1.5;
+}
+.header-wrapper__right__list__item a {
+  font-size: 2rem;
+  transition: all 0.3s;
+}
+.header-wrapper__right__list__item a span {
+  font-size: 1.2rem;
+}
+.header-wrapper__right__list__item a:hover {
+  opacity: 0.5;
+}
+.color {
+  color: #4FA6A3;
+}
+
+/* contact -------------------------------------*/
+.contact-wrapper {
+  background-color: #fafafa;
+  position: relative;
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+}
+
+.contact-wrapper__con {
+  margin-top: 8rem;
+}
+
+.contact-wrapper__con h3 {
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+
+.contact-wrapper__con__txt {
+  margin-top: 2.8rem;
+  font-size: 2rem;
+}
+
+.contact-wrapper__con__hours {
+  margin-top: 7.2rem;
+  font-size: 2rem;
+}
+
+.contact-wrapper__action {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  background-color: #fff;
+  position: absolute;
+  left: 38%;
+  bottom: -10rem;
+  padding: 6rem 2.4rem;
+}
+
+.contact-wrapper__action__phone {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-wrapper__action__phone i,
+.contact-wrapper__action__phone p {
+  font-size: 2.8rem;
+}
+
+.contact-wrapper__action__phone i {
+  margin-right: 1.2rem;
+}
+
+.contact-wrapper__action .btn {
+  margin: 0;
+}
+
+.contact-wrapper__btn a {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* footer ---------------------------------------*/
+.footer-wrapper {
+  margin-top: 20rem;
+  padding: 4rem 10rem;
+  background-color: #fafafa;
+  position: relative;
+}
+.footer-wrapper__con {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-wrapper__line {
+  width: 1px;
+  height: 284px;
+  background-color: #555;
+  position: absolute;
+  left: 50%;
+}
+.footer-wrapper__con__info h2 {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+.footer-wrapper__con__info > p {
+  margin-top: 9.2rem;
+  font-size: 2rem;
+}
+.footer-wrapper__con__info__phone {
+  display: flex;
+  align-items: center;
+  margin-top: 3.2rem;
+}
+.footer-wrapper__con__info__phone i,
+.footer-wrapper__con__info__phone p {
+  font-size: 2rem;
+}
+.footer-wrapper__con__info__phone i {
+  margin-right: 1.2rem;
+}
+.footer-wrapper__right {
+  text-align: right;
+  margin-top: 4.2rem;
+}
+.footer-wrapper__right p {
+  font-size: 2rem;
+}
+.footer-wrapper__con__nav {
+  width: 45%;
+}
+.footer-wrapper__con__nav__list {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: end;
+}
+.footer-wrapper__con__nav__list__item {
+  margin-left: 7.2rem;
+  margin-bottom: 2.8rem;
+}
+.footer-wrapper__con__nav__list__item a {
+  font-size: 2rem;
+  transition: all 0.3s;
+}
+.footer-wrapper__con__nav__list__item a:hover {
+  opacity: 0.5;
+}
