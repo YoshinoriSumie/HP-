@@ -34,7 +34,7 @@
 
 /*-----------------------------------------*/
 .interview-wrapper__block {
-    margin-top: 8rem;
+    margin-top: 6rem;
     display: flex;
 }
 .interview-wrapper__block__left {
@@ -104,7 +104,7 @@
 .entry-wrapper__txt {
     width: 100%;
     display: inline-block;
-    margin-top: 12rem;
+    margin-top: 6rem;
     text-align: center;
 }
 .entry-wrapper__txt h3 {
