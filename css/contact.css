@@ -4,7 +4,7 @@
 .form-wrapper {
     width: 50%;
     margin: 0 auto;
-    padding-bottom: 8rem;
+    padding-bottom: 6rem;
 }
 .form-wrapper__item label {
     display: block;
@@ -26,29 +26,31 @@
     margin-top: .4rem;
 }
 .form-wrapper__btn {
-    width: 32%;
-    margin:  3.2rem auto 0;
+    width: 25%;
     border: none;
+    margin: 3.2rem auto 0;
 }
 .form-wrapper__btn button {
     width: 100%;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
     border: unset;
     background-color: #4FA6A3;
     color: #fff;
     line-height: 3.2;
+    border: 1px solid transparent;
     transition: all 0.3s;
 }
 .form-wrapper__btn button:hover {
-    opacity: 0.5;
+    background-color: #fff;
+    border: 1px solid #555;
+    color: #555;
 }
 
 /* phone ------------------------*/
 .phone-wrapper {
     margin-top: 8rem;
-    padding: 8rem 0;
     text-align: center;
 }
 .phone-wrapper__txt {
@@ -57,7 +59,7 @@
     margin-bottom: 4.8rem;
 }
 .phone-wrapper__hours {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 .phone-wrapper__con {
     width: 30%;
@@ -67,12 +69,12 @@
     background-color: #EBEBEB;
     margin: 0 auto;
     padding: 2rem;
-    margin-bottom: 4.8rem;
+    margin-bottom: 4rem;
 }
 .phone-wrapper__con i {
-    font-size: 4.8rem;
+    font-size: 4rem;
     margin-right: 1.6rem;
 }
 .phone-wrapper__con p {
-    font-size: 4.8rem;
+    font-size: 4rem;
 }

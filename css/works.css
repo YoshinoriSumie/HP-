@@ -24,14 +24,14 @@
     background-color: #fafafa;
 }
 .details-wrapper__block__con .name {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
 }
 .details-wrapper__block__con .date {
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin-top: 2.4rem;
 }
 .details-wrapper__block__con .content {
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin-top: 6rem;
 }

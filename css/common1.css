@@ -30,10 +30,11 @@ li {
   align-items: center;
   margin-top: 80px;
   position: relative;
+  padding-top: 3.2rem;
 }
 .s-ttl__square {
-  width: 107px;
-  height: 107px;
+  width: 100px;
+  height: 100px;
   background-color: #4FA6A3;
 }
 .s-ttl__con {
@@ -43,11 +44,11 @@ li {
   left: 8rem;
 }
 .s-ttl__ttl {
-  font-size: 4.8rem;
+  font-size: 4rem;
   font-weight: 900;
 }
 .s-ttl__txt {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
 }
 .s-ttl__line {
   width: 120px;
@@ -88,7 +89,7 @@ li {
   display: block;
   width: 100%;
   height: 100%;
-  line-height: 90px;
+  line-height: 80px;
   font-size: 2.4rem;
   transition: all 0.3s;
 }
@@ -98,7 +99,7 @@ li {
 
 /* header ------------------------------------*/
 .header-wrapper {
-  padding: 4rem 10rem;
+  padding: 2rem 8rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -114,14 +115,14 @@ li {
 .header-wrapper__right__list__item {
   margin-left: 5.5rem;
   text-align: center;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 .header-wrapper__right__list__item a {
-  font-size: 2rem;
+  font-size: 1.8rem;
   transition: all 0.3s;
 }
 .header-wrapper__right__list__item a span {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .header-wrapper__right__list__item a:hover {
   opacity: 0.5;
@@ -131,63 +132,47 @@ li {
 }
 
 /* contact -------------------------------------*/
-.contact-wrapper {
-  background-color: #fafafa;
-  position: relative;
-  padding-top: 3.2rem;
-  padding-bottom: 3.2rem;
-}
-
 .contact-wrapper__con {
   margin-top: 8rem;
 }
-
 .contact-wrapper__con h3 {
-  font-size: 3.6rem;
+  font-size: 2.8rem;
   font-weight: bold;
 }
-
 .contact-wrapper__con__txt {
-  margin-top: 2.8rem;
-  font-size: 2rem;
+  margin-top: 2rem;
+  font-size: 1.8rem;
 }
-
 .contact-wrapper__con__hours {
-  margin-top: 7.2rem;
-  font-size: 2rem;
+  margin-top: 12rem;
+  font-size: 1.8rem;
 }
-
 .contact-wrapper__action {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 40%;
-  background-color: #fff;
-  position: absolute;
-  left: 38%;
-  bottom: -10rem;
+  width: 60%;
+  background-color: #fafafa;
   padding: 6rem 2.4rem;
+  margin: 0 0 0 auto;
+  position: relative;
+  top: -11rem;
 }
-
 .contact-wrapper__action__phone {
   display: flex;
   align-items: center;
   text-align: center;
 }
-
 .contact-wrapper__action__phone i,
 .contact-wrapper__action__phone p {
   font-size: 2.8rem;
 }
-
 .contact-wrapper__action__phone i {
   margin-right: 1.2rem;
 }
-
 .contact-wrapper__action .btn {
   margin: 0;
 }
-
 .contact-wrapper__btn a {
   color: #fff;
   font-weight: bold;
@@ -195,7 +180,7 @@ li {
 
 /* footer ---------------------------------------*/
 .footer-wrapper {
-  margin-top: 20rem;
+  margin-top: 8rem;
   padding: 4rem 10rem;
   background-color: #fafafa;
   position: relative;

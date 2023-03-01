@@ -2,12 +2,12 @@
 
 /* outline ------------------------------------*/
 .outline-wrapper {
-    padding-bottom: 8.8rem;
+    padding-bottom: 6rem;
 }
 .outline-wrapper__con {
     width: 70%;
     margin: 0 auto;
-    margin-top: 7.2rem;
+    margin-top: 6rem;
 }
 .outline-wrapper__con__list__item {
     display: flex;
@@ -31,7 +31,7 @@
 .outline-wrapper__img {
     display: flex;
     justify-content: space-between;
-    margin-top: 10rem;
+    margin-top: 6rem;
 }
 .outline-wrapper__img__outer {
     width: 48%;
@@ -42,12 +42,12 @@
 
 /* access ------------------------------------*/
 .access-wrapper {
-    padding-bottom: 10rem;
+    padding-bottom: 6rem;
 }
 .access-wrapper__map {
     width: 70%;
     margin: 0 auto;
-    margin-top: 8rem;
+    margin-top: 6rem;
 }
 .access-wrapper__map iframe {
     width: 100%;
@@ -59,7 +59,7 @@
     margin-top: 6rem;
 }
 .access-wrapper__con__block h3 {
-    font-size: 2.8rem;
+    font-size: 2.4rem;
     font-weight: bold;
     display: inline-block;
     position: relative;
@@ -71,11 +71,11 @@
     background-color: #4FA6A3;
     display: inline-block;
     position: absolute;
-    bottom: 4px;
+    bottom: -1px;
     left: 50%;
     transform: translateX(-50%);
 }
 .access-wrapper__con__block p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-top: 2.4rem;
 }

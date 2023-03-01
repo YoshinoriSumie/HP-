@@ -2,73 +2,67 @@
 
 
 /* top -----------------------------------------*/
-.business-top {
-  margin-bottom: 28rem;
-}
 
 /* construction --------------------------------*/
+.construction-wrapper__txt {
+  margin-top: 6rem;
+  width: 52%;
+  background-color: rgba(255, 255, 255, 80%);
+  padding: 4rem;
+}
+.construction-wrapper__txt p {
+  font-size: 1.8rem;
+}
 .construction {
   position: relative;
 }
-.construction-wrapper__txt {
-  margin-top: 6rem;
-  width: 59%;
-}
-.construction-wrapper__txt p {
-  font-size: 2rem;
-}
 .construction-wrapper__img {
+  width: 55%;
   position: absolute;
-  top: -12rem;
+  top: 0;
   right: 0;
   z-index: -1;
 }
+.construction-wrapper__img img {
+  width: 100%;
+}
 
 /* housing --------------------------------*/
-.housing {
-  position: relative;
-  margin-top: 20rem;
+.housing-wrapper {
+  margin-top: 18rem;
 }
 .housing-wrapper__txt {
-  margin: 0 0 0 auto;
   margin-top: 6rem;
-  width: 59%;
+  margin-left: 50%;
+  width: 52%;
+  background-color: rgba(255, 255, 255, 80%);
+  padding: 4rem;
 }
 .housing-wrapper__txt p {
-  font-size: 2rem;
+  font-size: 1.8rem;
+}
+.housing {
+  position: relative;
 }
 .housing-wrapper__img {
+  width: 55%;
   position: absolute;
-  top: 107px;
+  top: 0;
   left: 0;
   z-index: -1;
 }
-.housing-wrapper__txt {
-  margin-top: 6rem;
-  width: 51.5%;
+.housing-wrapper__img img {
+  width: 100%;
 }
-.housing-wrapper__txt p {
-  font-size: 2rem;
-}
-.housing-wrapper__ttl .s-ttl__square {
-  margin: 0 0 0 auto;
-  position: relative;
-}
-.housing-wrapper__ttl.s-ttl {
-  flex-direction: column-reverse;
-}
-.housing-wrapper__ttl .s-ttl__con {
-  flex-direction: row-reverse;
-  left: 4rem;
-  position: absolute;
-  right: 8rem;
+.housing-wrapper__ttl {
+  margin-left: 50%;
 }
 
 /* service --------------------------------*/
 .service-wrapper {
-  margin-top: 35%;
+  margin-top: 20rem;
   text-align: center;
-  padding-bottom: 8rem;
+  padding-bottom: 6rem;
 }
 .service-wrapper__con {
   width: 90%;
@@ -92,11 +86,11 @@
   background-color: #fff;
 }
 .service-wrapper__con__inner p {
-  font-size: 2rem;
-  text-align: left;
+  font-size: 1.6rem;
+  text-align: center;
   margin-top: 12%;
 }
 .service-wrapper__con__inner img {
   width: 100%;
-  margin-top: 12rem;
+  margin-top: 6rem;
 }
