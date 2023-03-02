@@ -47,11 +47,11 @@
 .company-wrapper__img {
     display: flex;
     justify-content: space-around;
-    margin-top: 7.6rem;
+    margin-top: 6rem;
 }
 .company-wrapper__con {
     text-align: center;
-    margin-top: 7.4rem;
+    margin-top: 6rem;
 }
 .company-wrapper__con h3 {
     font-size: 3.2rem;
@@ -59,7 +59,7 @@
 }
 .company-wrapper__con p {
     font-size: 1.8rem;
-    margin-top: 1.6rem;
+    margin-top: 2rem;
 }
 
 /* business -------------------------------------*/
@@ -75,7 +75,7 @@
     width: 44%;
 }
 .__business-2 {
-    margin-top: 4rem;
+    margin-top: 6rem;
     flex-direction: row-reverse;
     align-items: end;
 }
@@ -99,7 +99,7 @@
     margin-top: 3.6rem;
 }
 .business-wrapper__btn {
-    margin-top: 9.2rem;
+    margin-top: 6rem;
 }
 .__business-1 {
     text-align: end;
@@ -165,13 +165,13 @@
 .recruit-wrapper {
     background-image: url(../img/recruit_wrapper.png);
     background-size: cover;
-    padding-bottom: 8rem;
+    padding-bottom: 6rem;
 }
 .recruit-wrapper__con {
     width: 100%;
     background-color: rgba(255, 255, 255, 80%);
     text-align: center;
-    padding: 8rem 0;
+    padding: 6rem 0;
     margin-top: 6rem;
 }
 .recruit-wrapper__con h3 {

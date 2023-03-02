@@ -99,12 +99,12 @@
     background-size: cover;
 }
 .entry-wrapper {
-    padding-bottom: 20rem;
+    padding-bottom: 12rem;
 }
 .entry-wrapper__txt {
     width: 100%;
     display: inline-block;
-    margin-top: 6rem;
+    margin-top: 12rem;
     text-align: center;
 }
 .entry-wrapper__txt h3 {

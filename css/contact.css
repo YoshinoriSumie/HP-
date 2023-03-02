@@ -28,7 +28,7 @@
 .form-wrapper__btn {
     width: 25%;
     border: none;
-    margin: 3.2rem auto 0;
+    margin: 6rem auto 0;
 }
 .form-wrapper__btn button {
     width: 100%;
@@ -50,7 +50,7 @@
 
 /* phone ------------------------*/
 .phone-wrapper {
-    margin-top: 8rem;
+    margin-top: 6rem;
     text-align: center;
 }
 .phone-wrapper__txt {
